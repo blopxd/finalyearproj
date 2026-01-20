@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do | Productivity App</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/todo.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<main class="todo-container">
+
+  <header>
+    <h1>My Tasks & Goals</h1>
+    <p>Create your tasks - LOCK IN!</p>
+  </header>
+
+  <!-- ADD TASK -->
+  <section class="add-task">
+    <h2>Add New Task</h2>
+
+    <input type="text" id="title" placeholder="Task title" />
+    <textarea id="description" placeholder="Task description"></textarea>
+
+    <select id="priority">
+      <option value="Low">Low Priority</option>
+      <option value="Medium">Medium Priority</option>
+      <option value="High">High Priority</option>
+    </select>
+
+    <select id="urgency">
+      <option value="Normal">Normal</option>
+      <option value="Urgent">Urgent</option>
+    </select>
+
+    <button id="addTaskBtn">Add Task</button>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="filters">
+    <button onclick="filterTasks('all')">All</button>
+    <button onclick="filterTasks('ongoing')">Ongoing</button>
+    <button onclick="filterTasks('completed')">Completed</button>
+  </section>
+
+  <!-- TASK LIST -->
+  <section class="task-list" id="taskList">
+    <!-- tasks inserted dynamically -->
+  </section>
+
+</main>
+
+<div id="footer"></div>
+
+<script src="../js/nav.js"></script>
+<script src="../js/todo.js"></script>
+
+</body>
+</html>
