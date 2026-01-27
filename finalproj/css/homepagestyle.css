@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0d0d14;
+    color: #e7e6f2;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background: #12121c;
+    border-bottom: 1px solid #2a2342;
+}
+
+.logo {
+    font-size: 30px;
+    color: #a78bfa;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #d6d3f0;
+    text-decoration: none;
+}
+
+.auth-buttons a {
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.login {
+    color: #a78bfa;
+    border: 1px solid #a78bfa;
+}
+
+.signup {
+    background: #a78bfa;
+    color: #12121c;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 40px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a1a2e, #0d0d14);
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #c4b5fd;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #cfccee;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #a78bfa;
+    color: #12121c;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Features */
+.features {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #161627;
+    border: 1px solid #2a2342;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+/* About */
+.about {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #161627;
+    border: 1px solid #2a2342;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+/* Team */
+.team {
+    padding: 80px 40px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a1a2e, #0d0d14);
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: #161627;
+    border: 1px solid #2a2342;
+    padding: 30px;
+    width: 280px;
+    border-radius: 14px;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    background: #2a2342;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.role {
+    color: #a78bfa;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #12121c;
+    border-top: 1px solid #2a2342;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+}
