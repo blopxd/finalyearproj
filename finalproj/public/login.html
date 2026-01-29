@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> sign in/ sign up | Productivity App </title>
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/login.css"> 
+    </head>
+    <body>
+
+        <div id="navbar"></div>
+
+        <main class="login-container">
+
+            <header>
+                <h1> Welcome to TrackWise! </h1>
+                <p>Let's get you set up. <br> Please sign in or sign up to continue </p>
+            </header>
+
+            <section class="auth-forms">
+
+                <div class="auth-toggle">
+                    <button id="showSignIn" class="active">Sign In</button>
+                    <button id="showSignUp">Sign Up</button>
+                </div>
+
+                <!-- SIGN IN FORM -->
+                <div class="auth-form sign-in active-form">
+                    <h2>Welcome back</h2>
+                    <input type="text" id="signin-username" placeholder="Username" />
+                    <input type="password" id="signin-password" placeholder="Password" />
+                    <button id="signin-btn">Sign In</button>
+                </div>
+
+                <!-- SIGN UP FORM -->
+                <div class="auth-form sign-up hidden">
+                    <h2>Create an account</h2>
+                    <input type="text" id="signup-username" placeholder="Username" />
+                    <input type="password" id="signup-password" placeholder="Password" />
+                    <button id="signup-btn">Sign Up</button>
+                </div>  
+            </section>
+
+        </main>
+
+        <div id="footer"></div>
+
+        <script src="../js/nav.js"></script>
+        <script src="../js/login.js"></script>

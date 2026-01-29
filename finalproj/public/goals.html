@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Set Goals</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/goals.css">
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <main class="goals-container">
+
+    <header>
+      <h1>Set Your Goals</h1>
+      <p>Define your productivity goals to stay on track!</p>
+    </header>
+
+    <!-- GOAL CREATION -->
+    <section class="goal-forms">
+      <div class="goal-inputs">
+        <input type="text" id="goal-title" placeholder="Goal Title" />
+        <input type="text" id="goal-description" placeholder="Goal Description" />
+        <button id="add-goal-btn">Add Goal</button>
+      </div>
+    </section>
+
+    <!-- GOALS LIST -->
+    <section class="goal-list" id="goal-list">
+      <!-- Each goal card will be inserted here -->
+    </section>
+
+    <!-- STUDY ACTIONS -->
+    <section class="start-timer-section">
+    <a href="pomodoro.html" class="action-btn pomodoro-btn">
+        Start Pomodoro
+    </a>
+    <br><br>
+    <a href="timer.html" class="action-btn timer-btn">
+        Start Timer
+    </a>
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../js/nav.js"></script>
+  <script src="../js/goals.js"></script>
+</body>
+</html>
+
+
