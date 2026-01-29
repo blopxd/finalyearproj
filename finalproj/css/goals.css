@@ -1,0 +1,181 @@
+/* PAGE CONTAINER */
+.goals-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* PAGE HEADER */
+.goals-container h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.goals-container p {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+/* GOAL FORM */
+.goal-forms {
+  background: #7c80cc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+/* GOAL CARDS */
+.goal-item {
+  background: #10030309;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  border-left: 6px solid #4f46e5;
+}
+
+/* GOAL TITLE */
+.goal-item h3 {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+
+/* GOAL META */
+.goal-item .meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* MINI TASKS */
+.goal-item ul {
+  padding-left: 20px;
+}
+
+.goal-item li {
+  margin-bottom: 6px;
+}
+
+/* ADD GOAL BUTTON */
+.add-goal-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 18px;
+  border: line-style;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.add-goal-btn:hover {
+  background-color: #4338ca;
+  transform: translateY(-1px);
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79,70,229,0.15);
+}
+
+.goals-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+.add-goal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.goal-card {
+  background: #f9fafb;
+  border-left: 6px solid #4f46e5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+.goal-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+
+.subtasks {
+  margin-top: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #e5e7eb;
+}
+
+.subtasks h4 {
+  font-size: 0.95rem;
+  color: #4f46e5;
+  margin-bottom: 8px;
+}
+
+.subtasks ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.subtasks li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+.subtasks li input {
+  margin-right: 10px;
+}
+
+
+.start-timer-section {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.action-btn {
+  padding: 0.9rem 1.8rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.pomodoro-btn {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+}
+
+.timer-btn {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+}
+
+.action-btn:active {
+  transform: scale(0.97);
+}
